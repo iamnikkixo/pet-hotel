@@ -1,0 +1,37 @@
+POST http://localhost:3000/registrations
+Content-Type: application/json
+
+{
+  "firstName": "Michael",
+  "lastName": "Jordan",
+  "address": "123 Maple Ave",
+  "city": "Smalltown",
+  "country": "Australia",
+  "number": "+3423 434 5678",
+  "email": "michael.jordan@example.com",
+  "dogName": "Charlie",
+  "breed": "Poodle",
+  "gender": "M",
+  "dogAge": 5,
+  "dogDOB": "2019-08-12",
+  "weight": "10",
+  "desex": "Yes",
+  "coatColour": "White",
+  "microchip": "3423-4233-1231"
+}
+
+###
+
+POST http://localhost:3000/reservations
+Content-Type: application/json
+
+{
+  "firstName": "Mia",
+  "lastName": "Wong",
+  "email": "mia.wong@example.com",
+  "phone": "0987654321",
+  "dogName": "Rosie",
+  "checkInDate": "2024-07-01T14:00:00Z",
+  "checkOutDate": "2024-08-20T11:00:00Z",
+  "termsConditions": true
+}

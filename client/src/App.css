@@ -1,0 +1,243 @@
+body {
+  font-family: 'roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Barlow', sans-sarif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+
+h2,
+h4 {
+  font-family: 'Barlow', sans-sarif;
+  font-weight: 500;
+}
+
+.about-text-header {
+  text-decoration: #f4b02d overline;
+  text-transform: uppercase;
+}
+
+.navbar {
+  background-color: transparent;
+  height: 110px;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-change {
+  background-color: white;
+}
+
+.navbar-change .un::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+.navbar-change a {
+  color: black;
+}
+
+.navbar .btn {
+  text-transform: uppercase;
+  font-family: 'Barlow', sans-sarif;
+}
+
+.navbar .nav-item {
+  margin-right: auto;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+}
+
+.navbar .container-fluid {
+  padding-left: 0;
+}
+
+.un {
+  position: relative;
+  display: inline-block;
+}
+
+.un::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: white;
+  transition: 300ms;
+}
+
+.un:hover::after {
+  width: 100%;
+}
+
+.primary-header {
+  color: #f4b02d;
+  text-align: center;
+  font-weight: 600;
+}
+
+.secondary-header {
+  color: #7d4427;
+  text-align: center;
+  font-weight: 600;
+}
+
+.row-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hr-center {
+  display: flex;
+}
+
+.hr-line {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin: 2.5rem 0;
+  border-bottom: 1px solid #000;
+}
+
+.hr-line-long {
+  display: flex;
+  width: 80%;
+  position: relative;
+  margin: 2.5rem 0;
+  border-bottom: 1px solid #000;
+}
+
+.hr-line-short {
+  display: flex;
+  width: 20%;
+  position: relative;
+  margin: 2.5rem 0;
+  border-bottom: 1px solid #000;
+}
+
+.hr-icon {
+  display: flex;
+  position: relative;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  top: 3px;
+  color: black;
+  font-size: 4.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #212121;
+  color: white;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+footer h1 {
+  font-weight: 600;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  transition: 300ms;
+}
+
+.info-accordion .accordion-button {
+  font-size: 1.25rem;
+}
+
+.info-accordion .accordion-button:not(.collapsed) {
+  background-color: #f4b02d;
+  color: white;
+}
+
+.info-accordion .accordion-button:focus {
+  border-color: #212529;
+  box-shadow: 0 0 0 0.25rem #f4b02d;
+}
+
+.info-accordion .accordion-button:not(.collapsed)::after {
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23212529%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e');
+  transform: rotate(-180deg);
+}
+
+.s-container .swiper-button-prev,
+.s-container .swiper-button-next {
+  color: white;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+.custom-shape-divider-bottom-1708692138 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1708692138 svg {
+  position: relative;
+  display: block;
+  width: calc(183% + 1.3px);
+  height: 164px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1708692138 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-top-1708767424 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1708767424 svg {
+  position: relative;
+  display: block;
+  width: calc(104% + 1.3px);
+  height: 93px;
+}
+
+.custom-shape-divider-top-1708767424 .shape-fill {
+  fill: #ffffff;
+}

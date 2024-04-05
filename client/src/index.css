@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Barlow',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-primary {
+  color: white;
+  font-weight: 600;
+  background-color: #f4b02d;
+  border: 2px solid #f4b02d;
+  border-radius: 10px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #f4ae2dcb;
+  border-color: #f4ae2dcb;
+}
+
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #c68d24;
+  border-color: #c68d24;
+}
+
+.secondary-btn {
+  color: #7d4427;
+  background-color: white;
+  border: 2px solid #7d4427;
+  border-radius: 10px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.card-title {
+  color: #7d4427;
+  text-align: center;
+  font-family: 'Barlow', sans-sarif;
+}
+
+.navbar-toggler {
+  border: none;
+}
