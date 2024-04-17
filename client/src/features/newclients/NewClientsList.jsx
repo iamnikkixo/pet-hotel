@@ -5,10 +5,12 @@ import NewClientsRightDiv from './NewClientsRightDiv';
 import NewClientsLeftDiv from './NewClientsLeftDiv';
 
 const NewClientsList = () => {
-  const newClientsInfo = useSelector((state) => state.newclients.newClientsArray);
+  const newClientsInfo = useSelector(
+    (state) => state.newclients.newClientsArray
+  );
 
   return (
-    <Container>
+    <Container className="px-5 px-md-0">
       {newClientsInfo.map((info) => {
         if (info.id === 0) {
           return <NewClientsCenterDiv key={info.id} content={info} />;

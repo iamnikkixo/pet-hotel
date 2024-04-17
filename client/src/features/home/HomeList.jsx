@@ -7,7 +7,7 @@ const HomeList = () => {
   const homeContent = useSelector((state) => state.home.homeArray);
 
   return (
-    <Container>
+    <Container className="px-5 px-md-0">
       {homeContent.map((content) => {
         if (content.id % 2 === 0) {
           return <LeftDiv key={content.id} content={content} />;

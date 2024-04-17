@@ -10,7 +10,7 @@ const AboutList = () => {
   const featuredAboutContent = useSelector(selectFeaturedContent);
 
   return (
-    <Container>
+    <Container className="px-5 px-md-0">
       {aboutContent.map((content) => {
         if (content.id === 0) {
           return <LeftDiv key={content.id} content={content} />;

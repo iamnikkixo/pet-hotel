@@ -1,8 +1,39 @@
-# pet-hotel
+![Pet Hotel Banner](banner.png)
+
+# Pet Hotel / Woofington Inn 🐾
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="ViteJS Logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" />
+</p>
+
+<br/>
 
 This project is built with Node.js and uses Express for the backend. MongoDB is utilized as the database.
 
-## Description
+## 📋 Table of Contents
+
+---
+
+1. 📖 [Introduction](#introduction)
+   - 📱 [Description + Mobile Responsiveness](#description--mobile-responsiveness)
+2. 🛠️ [Tech Stacks](#tech-stacks)
+3. ✨ [Features](#features)
+4. 🚀 [Quick Start](#quick-start)
+5. 📡 [API Endpoints](#api-endpoints)
+6. 📚 [Sources](#sources)
+   - 🎨 [UX/UI Design](#uxui-design)
+   - 📷 [Picture Sources](#picture-sources)
+7. 📞 [Contact Information](#contact-information)
+
+## 📖 Introduction
+
+---
+
+### 📱 Description + Mobile Responsiveness
 
 Pet Hotel is a web application designed for dog owners or "pawrents" seeking daycare and boarding services for their furry friends. The application offers the following features:
 
@@ -11,13 +42,33 @@ Pet Hotel is a web application designed for dog owners or "pawrents" seeking day
 - **New Client Information:** Find essential details for new clients, including the enrollment process, FAQ, and policies.
 - **Registration & Reservation:** Easily register as a new client, provide pet details and vaccination records, and make reservations for daycare and boarding services. Registrations and reservations are saved in the database, and confirmation emails are sent to both the new client and the business.
 
-## Mobile Responsiveness
-
 The web app is designed to be fully responsive, providing a seamless experience across devices like desktops, tablets, and smartphones. The layout and functionality adjust dynamically for optimal usability on any screen size.
 
 Bootstrap was used to enhance the mobile responsiveness and overall design of the application.
 
-## Getting Started
+## 🛠️ Tech Stacks
+
+---
+
+This project is built using the following technologies:
+
+- **Node.js**
+- **Express**
+- **MongoDB**
+- **Bootstrap**
+
+## ✨ Features
+
+---
+
+- Comprehensive service offerings for dog daycare and boarding
+- Mobile responsive design
+- User registration and reservation system
+- Email confirmations for registrations and reservations
+
+## 🚀 Quick Start
+
+---
 
 1. Clone this repository.
 2. Install dependencies in the client and server directories using `npm install`.
@@ -26,23 +77,23 @@ Bootstrap was used to enhance the mobile responsiveness and overall design of th
 
    Client:
 
-   - `VITE_BASE_URL =`
+   - `VITE_BASE_URL=`
 
    Server:
 
-   - `MONGODB_URL =`
-   - `MAIL_HOST =`
-   - `MAIL_PORT =`
-   - `MAIL_SECURE =`
-   - `MAIL_USERNAME =`
-   - `MAIL_PASSWORD =`
-   - `MAIL_FROM =`
+   - `MONGODB_URL=`
+   - `MAIL_HOST=`
+   - `MAIL_PORT=`
+   - `MAIL_SECURE=`
+   - `MAIL_USERNAME=`
+   - `MAIL_PASSWORD=`
+   - `MAIL_FROM=`
 
 5. Start the client and server with `npm run dev`.
 
-## API Endpoints
+## 📡 API Endpoints
 
-The Pet Hotel application provides two main endpoints for handling registrations and reservations.
+---
 
 ### Registrations Endpoint
 
@@ -66,15 +117,21 @@ The Pet Hotel application provides two main endpoints for handling registrations
 - **Response:**
   Returns a booking confirmation message and sends an email to both the client and the business.
 
-## UX/UI Design
+## 🎨 UX/UI Design
+
+---
 
 I created & designed it.
 
-## Picture Sources
+## 📷 Picture Sources
+
+---
 
 The pictures used in this project are sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/), which provide free-to-use images. All images included in this repository are licensed for use in this project.
 
-## Contact Information
+## 📞 Contact Information
+
+---
 
 For any questions, feedback, or collaboration opportunities, feel free to reach out!
 
