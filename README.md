@@ -1,7 +1,5 @@
 ![Pet Hotel Banner](banner.png)
 
-# Pet Hotel / Woofington Inn 🐾
-
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="ViteJS Logo" width="50" />
