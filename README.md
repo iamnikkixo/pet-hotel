@@ -3,11 +3,11 @@
 # Pet Hotel / Woofington Inn 🐾
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="ViteJS Logo" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="ViteJS Logo" width="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" width="50" />
 </p>
 
 <br/>
@@ -15,8 +15,6 @@
 This project is built with Node.js and uses Express for the backend. MongoDB is utilized as the database.
 
 ## 📋 Table of Contents
-
----
 
 1. 📖 [Introduction](#introduction)
    - 📱 [Description + Mobile Responsiveness](#description--mobile-responsiveness)
@@ -30,8 +28,6 @@ This project is built with Node.js and uses Express for the backend. MongoDB is 
 7. 📞 [Contact Information](#contact-information)
 
 ## 📖 Introduction
-
----
 
 ### 📱 Description + Mobile Responsiveness
 
@@ -48,8 +44,6 @@ Bootstrap was used to enhance the mobile responsiveness and overall design of th
 
 ## 🛠️ Tech Stacks
 
----
-
 This project is built using the following technologies:
 
 - **Node.js**
@@ -59,16 +53,12 @@ This project is built using the following technologies:
 
 ## ✨ Features
 
----
-
 - Comprehensive service offerings for dog daycare and boarding
 - Mobile responsive design
 - User registration and reservation system
 - Email confirmations for registrations and reservations
 
 ## 🚀 Quick Start
-
----
 
 1. Clone this repository.
 2. Install dependencies in the client and server directories using `npm install`.
@@ -92,8 +82,6 @@ This project is built using the following technologies:
 5. Start the client and server with `npm run dev`.
 
 ## 📡 API Endpoints
-
----
 
 ### Registrations Endpoint
 
@@ -119,19 +107,13 @@ This project is built using the following technologies:
 
 ## 🎨 UX/UI Design
 
----
-
 I created & designed it.
 
 ## 📷 Picture Sources
 
----
-
 The pictures used in this project are sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/), which provide free-to-use images. All images included in this repository are licensed for use in this project.
 
 ## 📞 Contact Information
-
----
 
 For any questions, feedback, or collaboration opportunities, feel free to reach out!
 
