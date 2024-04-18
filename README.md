@@ -15,7 +15,6 @@ This project is built with Node.js and uses Express for the backend. MongoDB is 
 ## 📋 Table of Contents
 
 1. 📖 [Introduction](#introduction)
-   - 📱 [Description + Mobile Responsiveness](#description--mobile-responsiveness)
 2. 🛠️ [Tech Stacks](#tech-stacks)
 3. ✨ [Features](#features)
 4. 🚀 [Quick Start](#quick-start)
@@ -29,22 +28,17 @@ This project is built with Node.js and uses Express for the backend. MongoDB is 
 
 ### 📱 Description + Mobile Responsiveness
 
-Pet Hotel is a web application designed for dog owners or "pawrents" seeking daycare and boarding services for their furry friends. The application offers the following features:
 
-- **Company Information:** Learn about the company's history, mission, values, and the founder.
-- **Services:** Explore a range of services including daycare options, boarding facilities, grooming services, pool access, and more.
-- **New Client Information:** Find essential details for new clients, including the enrollment process, FAQ, and policies.
-- **Registration & Reservation:** Easily register as a new client, provide pet details and vaccination records, and make reservations for daycare and boarding services. Registrations and reservations are saved in the database, and confirmation emails are sent to both the new client and the business.
+Woofington Inn is a web application designed for doggie daycares and boarding companies, catering to dog owners or "pawrents" searching for daycare and boarding services for their furry friends.
 
 The web app is designed to be fully responsive, providing a seamless experience across devices like desktops, tablets, and smartphones. The layout and functionality adjust dynamically for optimal usability on any screen size.
 
-Bootstrap was used to enhance the mobile responsiveness and overall design of the application.
 
 ## 🛠️ Tech Stacks
 
 This project is built using the following technologies:
 
-- **Node.js**
+- **React**
 - **Express**
 - **MongoDB**
 - **Bootstrap**
