@@ -1,19 +1,19 @@
-import { FormGroup, Col, Label, Input } from 'reactstrap';
+import { Row, Col, Label, Input } from 'reactstrap';
 import TextField from '../../utils/TextField';
 import SelectField from '../../utils/SelectField';
 
 const DogInformation = () => {
   return (
     <>
-      <FormGroup row>
+      <Row>
         <Col xs="6">
           <TextField label="Dog Name" name="dogName" type="text" />
         </Col>
         <Col xs="6">
           <TextField label="Breed" name="breed" type="text" />
         </Col>
-      </FormGroup>
-      <FormGroup row>
+      </Row>
+      <Row>
         <Col xs="3">
           <SelectField label="Gender" name="gender" option1="M" option2="F" />
         </Col>
@@ -27,8 +27,8 @@ const DogInformation = () => {
             type="date"
           />
         </Col>
-      </FormGroup>
-      <FormGroup row>
+      </Row>
+      <Row>
         <Col xs="3">
           <TextField label="Weight (lbs)" name="weight" type="text" />
         </Col>
@@ -38,8 +38,8 @@ const DogInformation = () => {
         <Col xs="6">
           <TextField label="Coat Colour" name="coatColour" type="text" />
         </Col>
-      </FormGroup>
-      <FormGroup row>
+      </Row>
+      <Row>
         <Col xs="6">
           <TextField label="Microchip" name="microchip" type="text" />
         </Col>
@@ -47,8 +47,7 @@ const DogInformation = () => {
           <Label for="vaccination">Vaccination Record</Label>
           <Input id="vaccination" name="file" type="file" />
         </Col>
-      </FormGroup>
-      <FormGroup row></FormGroup>
+      </Row>
     </>
   );
 };

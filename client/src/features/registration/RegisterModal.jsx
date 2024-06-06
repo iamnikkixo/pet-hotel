@@ -19,7 +19,7 @@ const RegisterModal = () => {
 
   return (
     <>
-      <Button onClick={toggle} className="btn-lg button btn-primary">
+      <Button onClick={toggle} className="btn-lg button btn-primary mt-md-4">
         Enroll Now!
       </Button>
       <Modal

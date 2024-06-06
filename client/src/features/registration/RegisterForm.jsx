@@ -64,7 +64,7 @@ const RegisterForm = () => {
         coatColour: '',
         microchip: '',
       }}
-      validationSchema={currentValidationSchema}
+      //validationSchema={currentValidationSchema}
       onSubmit={handleSubmit}
     >
       {() => (

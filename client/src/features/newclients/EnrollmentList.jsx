@@ -7,7 +7,7 @@ const EnrollmentList = ({ steps }) => {
     <Row className="mt-5">
       {steps.map((step, index) => {
         return (
-          <Col md="4 mb-5 pb-5 pb-md-0 mb-md-0" key={index}>
+          <Col md="4 mb-5 mb-md-0" key={index}>
             <EnrollmentCard step={step} />
           </Col>
         );

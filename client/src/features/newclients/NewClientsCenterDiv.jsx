@@ -10,7 +10,7 @@ const NewClientsCenterDiv = ({ content }) => {
     <>
       <h1 className="primary-header">{header}</h1>
       <EnrollmentList steps={steps} />
-      <Row className="pt-3 pt-md-5 row-content">
+      <Row className="mb-3">
         <Col className="text-center">
           <RegisterModal />
         </Col>
