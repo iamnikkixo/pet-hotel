@@ -4,6 +4,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Footer = () => {
   return (
@@ -40,6 +41,12 @@ const Footer = () => {
               className="btn inline-block text-white"
             >
               <XIcon sx={{ fontSize: '30px' }} />
+            </a>
+            <a
+              href="https://github.com/iamnikkixo"
+              className="btn inline-block text-white"
+            >
+              <GitHubIcon sx={{ fontSize: '30px' }} />
             </a>
           </Col>
         </Row>
