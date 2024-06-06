@@ -55,7 +55,7 @@ const Navigation = () => {
         <Nav
           fill
           justified
-          className="w-100 align-items-center px-3 px-md-0"
+          className="w-100 align-items-center px-3 px-md-0 pb-4"
           navbar
           active="true"
         >
