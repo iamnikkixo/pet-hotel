@@ -250,4 +250,10 @@ footer a:hover {
     height: 70px;
     transform: rotateY(180deg);
   }
+  .custom-shape-divider-top-1708767424 svg {
+    position: relative;
+    display: block;
+    width: calc(104% + 1.3px);
+    height: 53px;
+  }
 }
