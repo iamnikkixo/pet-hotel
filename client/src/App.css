@@ -241,3 +241,13 @@ footer a:hover {
 .custom-shape-divider-top-1708767424 .shape-fill {
   fill: #ffffff;
 }
+
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1708692138 svg {
+    position: relative;
+    display: block;
+    width: calc(183% + 1.3px);
+    height: 70px;
+    transform: rotateY(180deg);
+  }
+}
