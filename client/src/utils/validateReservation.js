@@ -2,7 +2,7 @@ import * as Yup from 'yup';
 
 export const reservationSchema = Yup.object().shape({
   firstName: Yup.string().min(2).required('Required'),
-  lastName: Yup.string().min(2).required('R``equired'),
+  lastName: Yup.string().min(2).required('Required'),
   email: Yup.string().email().required('Required'),
   phone: Yup.number().required('Required'),
   dogName: Yup.string().required('Required'),
