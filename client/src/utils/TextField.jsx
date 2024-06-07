@@ -16,7 +16,11 @@ const TextField = ({ label, ...props }) => {
         {...field}
         {...props}
       />
-      <ErrorMessage component="div" className="error" name={field.name} />
+      <ErrorMessage
+        component="div"
+        className="error text-danger"
+        name={field.name}
+      />
     </FormGroup>
   );
 };
