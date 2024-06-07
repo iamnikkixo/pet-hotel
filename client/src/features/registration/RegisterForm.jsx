@@ -93,7 +93,7 @@ const RegisterForm = () => {
               <AllDone />
             )}
           </Row>
-          <Row>
+          <Row className="mt-1">
             <Col>
               {currentStep === 1 && (
                 <Button

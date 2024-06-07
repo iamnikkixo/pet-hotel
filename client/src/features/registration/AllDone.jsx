@@ -12,7 +12,7 @@ const AllDone = () => {
       <Row className="mt-5">
         <Col>
           <h4 className="fw-light">
-            Your information is getting processed, and you will be contacted
+            Your information is getting reviewed, and you will be contacted
             shortly!
           </h4>
         </Col>

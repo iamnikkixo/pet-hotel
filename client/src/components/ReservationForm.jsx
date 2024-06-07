@@ -47,7 +47,7 @@ const ReservationForm = ({ setModalOpen }) => {
     >
       <Form>
         <Row className="mb-3">
-          <h1 className="brown-h1 text-center">Reserve a room!</h1>
+         <h1 className="brown-h1 text-center">Reserve a room!</h1>
         </Row>
         <Row>
           <Col md="6">
