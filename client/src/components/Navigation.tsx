@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import the 
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const closeNavbar = () => setIsOpen(false);
 
   // set navbar background
   const [color, setColor] = useState(false);
@@ -36,7 +37,7 @@ const Navigation = () => {
       fixed="top"
       className={color ? 'navbar-change' : 'navbar'}
     >
-      <NavbarBrand href="/" className=" ms-3 ms-md-5">
+      <NavbarBrand href="/" className="ms-3 ms-md-5 mt-2">
         <PetsIcon sx={{ fontSize: 40 }} />
         <span className="ms-3">Woofington Inn</span>
       </NavbarBrand>
@@ -45,12 +46,11 @@ const Navigation = () => {
           className={color ? 'text-black' : 'text-white'}
           icon={isOpen ? faTimes : faBars}
         />{' '}
-        {/* Change icon based on isOpen */}
       </NavbarToggler>
       <Collapse
         isOpen={isOpen}
         navbar
-        className={color ? 'navbar-change' : 'navbar'}
+        className={isOpen ? 'navbar-change' : 'navbar'}
       >
         <Nav
           fill
@@ -60,21 +60,21 @@ const Navigation = () => {
           active="true"
         >
           <NavItem className="py-2">
-            <NavLink to="/about">
+            <NavLink to="/about" onClick={closeNavbar}>
               <span className="un">About</span>
             </NavLink>
           </NavItem>
           <NavItem className="py-2">
-            <NavLink to="/services">
+            <NavLink to="/services" onClick={closeNavbar}>
               <span className="un">Services</span>
             </NavLink>
           </NavItem>
           <NavItem className="py-2">
-            <NavLink to="/newclients">
+            <NavLink to="/newclients" onClick={closeNavbar}>
               <span className="un">New Clients</span>
             </NavLink>
           </NavItem>
-          <NavItem className="pt-3">
+          <NavItem className="pt-3" onClick={closeNavbar}>
             <ReserveModal />
           </NavItem>
         </Nav>
