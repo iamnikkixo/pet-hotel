@@ -37,7 +37,7 @@ const Navigation = () => {
       fixed="top"
       className={color ? 'navbar-change' : 'navbar'}
     >
-      <NavbarBrand href="/" className="ms-3 ms-md-5 mt-2">
+      <NavbarBrand href="/" className="ms-3 ms-md-5 pb-md-3">
         <PetsIcon sx={{ fontSize: 40 }} />
         <span className="ms-3">Woofington Inn</span>
       </NavbarBrand>
