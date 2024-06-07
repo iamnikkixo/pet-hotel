@@ -16,7 +16,7 @@ const ReserveModal = () => {
         Reserve Now
       </Button>
       <Modal isOpen={modalOpen} className="modal-xl">
-        <ModalBody className="py-0 ps-0">
+        <ModalBody className="py-0 px-0">
           <Row className="g-0">
             <Col sm="12" md="12" lg="6" className="d-none d-lg-block">
               <img
